@@ -1,0 +1,286 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+   font-family: 'PT Sans', sans-serif; 
+   
+     
+  /* font-family: 'Poppins', sans-serif; */
+}
+ /* helper class*/
+  a:link,
+  a:hover,
+  a:focus,
+  a:active{
+	     text-decoration:none;
+ }
+ ul{
+	list-style:none; 
+ }
+ .container{
+	 width:960px;
+	 margin:0 auto;
+ }
+ .ml-0{
+	 margin-left:0!important;
+ }
+ .mr-0{
+	 margin-right:0!important;
+ }
+ .mt-0{
+	 margin-top:0!important;
+ }
+ .mb-0{
+	 margin-bottom:0!important;
+ }
+ .pl-0{
+	 padding-left:0!important;
+ }
+ .pr-0{
+	padding-right:0!important;
+ }
+ 
+ .pt-0{
+	 padding-top:0!important;
+ }
+ .paddingb-0{
+	 padding-bottom:0!important;
+ }
+ .mb-70{
+	 margin-bottom:70px;
+ }
+ .pt-72{
+	 padding-top:72px;
+ }
+ .mb-20{
+	 margin-bottom:20px;
+ }
+ .mb-40{
+	 margin-bottom:40px;
+ }
+ 
+ 
+  .row,
+  .row::after,
+  .row::before{
+	  width:100%;
+	  display:table;
+	  clear:both;
+  }
+   .col6{
+	   padding:0 15px;
+	   float:left;
+	   width:50%;
+   }
+   .col10{
+	   float:left;
+	   padding:0 15px;
+   }
+   .col10{
+	   width:calc(100% * 10/12);
+   }
+   .col4{
+	   float:left;
+	   padding:0 15px;
+   }
+   .col4{
+	   width:calc(100% * 4/12);
+   }
+   .ploneandHalf{
+	   padding-left:calc(100% * 1.5/12);
+   }
+ 
+     /*css hero image*/
+  .heroimg{
+	  padding:60px 0px 105px 0px;
+	  background-color:#fcdb00;
+	  
+  }
+  /* .navbar ul{ */
+	  /* height:54px; */
+	  /* line-height:54px; */
+  /* } */
+  .navbar li{
+	  display:inline-block;
+	  margin:0 16px;
+  }
+  .navbar li a{
+	  display:inline-block;
+	  padding:16px 16px;
+	  color:#010101;
+	  font-size:22px;
+	  font-weight:bold;
+	  text-transform:capitalize;
+  }
+  /* .navbar li:nth-child(1){ */
+	  /* margin-left:0; */
+  /* } */
+  /* .navbar li:nth-child(1) a{ */
+	  /* padding-left:0; */
+  /* } */
+  /* .navbar li:last-child{ */
+	  /* margin-right:0; */
+  /* } */
+  /* .navbar li:last-child a{ */
+	  /* padding-right:0; */
+  /* } */
+  
+  .sectionHeading{
+	  font-size:32px;
+	  font-weight:bold;
+  }
+  
+  .secSubHeading{
+	  font-size:20px;
+	  color:#313841;
+  }
+  
+  .secInfo{
+	  font-size:16px;
+	  color:#555555;
+	  
+  }
+  .weblinks li{
+	  display:inline-block;
+	  margin-right:37px;
+	 
+  }
+  .weblinks i{
+	  font-size:34px;
+	  color:#010101;
+  }
+  
+  /*section feature start*/
+  
+  .features{
+	  padding:128px 0px 160px 0px;
+      background-color:#ffffff;
+	  font-family: 'Poppins', sans-serif;
+	  
+  }
+   .text-center{
+	  text-align:center;
+  }
+  .mb-90{
+	 margin-bottom:90px;
+ }
+ .pr-22{
+	 padding-right:22px;
+ }
+ .col3,.col9,.co11{
+	 float:left;
+	 padding:0 15px;
+ }
+ .col3{
+	 width:25%;
+ }
+ .col9{
+	 width:75%;
+ }
+ .thumbImg i{
+	 font-size:42px;
+	 color:#010101;
+ }
+ .thumbInfo h4{
+	 color:#010101;
+	 font-size:22px;
+	 margin-bottom:16px;
+	 font-family: 'Poppins', sans-serif;
+	     min-height: 66px;
+ }
+ .thumbInfo p{
+	 color:#898989;
+	 font-size:16px;
+	 font-family: 'Poppins', sans-serif;
+ }
+
+
+     /*section footer start*/
+
+ .footer{
+	 padding:95px 0px 150px;
+	   background-color:#010101; 
+ }
+ 
+ .footer .sectionHeading{
+	 color:#fcdb00;
+	 
+ }
+ 
+ .footer .secSubHeading{
+	 color:#898989;
+	 
+ }
+ .mb-40{
+	 margin-bottom:40px;
+ }
+  .submit{
+	  background-color:#fcdb00;
+	  height:50px;
+	  width:126px;
+	  border:1px solid #fcdb00;
+	  border-radius:5px;
+	  display:inline-block;
+	  text-transform:uppercase;
+	  cursor:pointer;
+  }
+  
+ .ml-20{
+	 margin-left:20px;
+ }
+ 
+ .mr-40{
+	 margin-right:40px;
+ }	 
+	 
+ 
+ 
+ .email{
+	 height:50px;
+	 padding:0 25px;
+	 display:inline-block;
+	 border-radius:5px;
+	 border:1px solid;
+	 width:calc(100% - 195px);
+	 
+ }
+ .mb-79{
+	 margin-bottom:79px!important;
+ }
+ 
+ .col12{
+	 width:100%;
+	 float:left;
+ }
+ .symbol li{
+	 	    display:inline-block;
+			margin-right:30px;
+ }	 
+	 
+.symbol li i{
+	 color:#fcdb00;
+	 font-size:40px;
+	 
+	 
+ }
+
+ .mb-130{
+	 margin-bottom:130px;
+ }
+ .col1{
+	 width:calc(100% * 1/12);
+	 float:left;
+ }
+  .mr-1col{
+	margin-right:calc(100% / 12);
+}	
+ .text-white{
+	 color:#efefef;
+ }
+.footerlink a{
+	font-size:16px;
+	color:#efefef;
+}
+.lowercase{
+	text-transform:lowercase
+}	
